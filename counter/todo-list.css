@@ -1,0 +1,30 @@
+/* todo-list.css */
+
+:host {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.todo-item .text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.todo-item .delete {
+  cursor: pointer;
+}
+
+.todo-item .completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
