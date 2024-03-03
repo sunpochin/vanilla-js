@@ -13,7 +13,7 @@ export class CustomCounter extends HTMLElement {
     
     // 绑定点击事件
     this.counterElement.addEventListener('click', () => {
-      this.increment();
+      this.increaseCounter();
     });
     
     // 将计数器元素添加到自定义组件中
@@ -21,7 +21,7 @@ export class CustomCounter extends HTMLElement {
   }
   
   // 增加计数器值的方法
-  increment() {
+  increaseCounter() {
     this.count++;
     this.counterElement.textContent = this.count;
   }
