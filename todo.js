@@ -1,5 +1,3 @@
-// todo-list.js
-
 // TodoItem类表示一个待办事项
 class TodoItem extends HTMLElement {
   constructor() {
